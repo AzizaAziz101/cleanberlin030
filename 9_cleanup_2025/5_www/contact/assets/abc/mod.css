@@ -1,0 +1,169 @@
+@import url(style1.css);
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #149dcc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #149dcc;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 20px;
+  background-color: rgba(0,0,0,0.55);
+  box-shadow: 0 0 0 50vmax rgba(0,0,0,.5);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #FFF;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 900px;
+  min-width: 300px;
+  height: auto;
+  z-index: 3000;
+}
+
+/* The Close Button (x) */
+.close1 {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+  color: #149dcc;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #767676;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+.separator {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+    height: 18px;
+    margin-bottom: 15px;
+}
+.separator span {
+    line-height: 15px;
+    padding: 0 10px;
+    background: white; /* Farbe des Elements darunter */
+    display: inline-block;
+    margin-top: 10px;
+    color: #60636a;
+}
+
+
+
+.bouncy{
+animation:bouncy 5s infinite linear;
+position:relative;
+}
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+} 
+
+
+header{
+    position: relative;
+    z-index: 1041;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
